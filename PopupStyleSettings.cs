@@ -4,7 +4,7 @@ using ToastMessageWhenCopied.Properties;
 
 namespace ToastMessageWhenCopied
 {
-    internal class PopupStyleSettings
+    public class PopupStyleSettings
     {
         public Color PopupColor { get; set; }
         public float FontSize { get; set; }
