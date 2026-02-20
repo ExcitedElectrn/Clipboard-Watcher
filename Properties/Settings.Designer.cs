@@ -26,5 +26,50 @@ namespace ToastMessageWhenCopied.Properties
                 return defaultInstance;
             }
         }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("-1083414")]
+        public int PopupColorArgb
+        {
+            get
+            {
+                return ((int)(this["PopupColorArgb"]));
+            }
+            set
+            {
+                this["PopupColorArgb"] = value;
+            }
+        }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("10.2")]
+        public float PopupFontSize
+        {
+            get
+            {
+                return ((float)(this["PopupFontSize"]));
+            }
+            set
+            {
+                this["PopupFontSize"] = value;
+            }
+        }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("18")]
+        public int PopupCornerRadius
+        {
+            get
+            {
+                return ((int)(this["PopupCornerRadius"]));
+            }
+            set
+            {
+                this["PopupCornerRadius"] = value;
+            }
+        }
     }
 }
